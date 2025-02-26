@@ -48,5 +48,5 @@ function addAccount(firstName,lastName,email,age,uniqueID){ //function to add th
    return true; //returns true, since successful.
 }
 
-export default {generateUniqueID, addAccount} //exports the functions
+export default {generateUniqueID, addAccount} //exports the functions for test.js
 
