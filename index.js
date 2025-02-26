@@ -45,7 +45,7 @@ function addAccount(firstName,lastName,email,age,uniqueID){ //function to add th
    console.log("Appended data") //to inform the user that the data is appended
 
 
-   return true; //returns true, since successful.
+   return true; //returns true, since successful. false return values are done in the checking in if statements
 }
 
 export default {generateUniqueID, addAccount} //exports the functions for test.js
